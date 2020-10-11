@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>01-01预订</title>
+		<meta name="description" content="">
+		<meta name=	"viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/date.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body class="body">
+		<div class="header ac headers">
+			<div class="inner">	
+				<div class="logo">
+					<a href="index.html">
+						<img src="images/logo.png" >
+						<img class="i2" src="images/logoac.png" >
+					</a>
+				</div>
+				<ul class="nav">
+					<li><a href="index.html">尔邸</a></li>
+					<li><a href="#about">憩</a></li>
+					<li><a href="#room">聚</a></li>
+					<li><a href="#concact">联系</a></li>
+				</ul>
+				<a href="" class="lang">预订</a>
+				<a href="" class="lang imember"></a>
+				<a href="" class="langN">EN</a>
+			</div>
+		</div>
+		<div class="innern">
+			<div class="book books">
+				<div class="idate">
+					<div class="l">
+						<span class="in"></span>
+						<input type="text" id="beginDate" name="beginDate" class="date-check date_input start_data out-store"
+						  readonly>
+						   ——— 
+						<span class="out"></span>
+						<input type="text" id="endDate" name="endDate" class="date-leave date_input end_data lean-store"
+						  readonly>
+					</div>
+					<span class="r">
+						共1晚
+					</span>
+					<div class="sy_pop_fix" style="position: relative;display: none;">
+					  <div class="date_box">
+					    <div class="zb_jt_up"><i class="jt_top"></i></div>
+					    <div class="date_fix">
+					      <div class="date_float fl" id="time_first">
+					        <ul class="date_top">
+					          <li class="date_left_j">
+					            <div class="date_jt_icon"><i></i></div>
+					          </li>
+					          <code>2018</code>年
+					          <label>9</label>月
+					        </ul>
+					        <dl class="date_dl">
+					          <dt>
+					            <a>日</a><a>一</a><a>二</a><a>三</a><a>四</a><a>五</a><a>六</a>
+					          </dt>
+					          <dd class="date_dd"><a trq="2018/09/01" txq="周六" class="date_ddhui"
+					              style="margin-left: 246px;">1</a><a trq="2018/09/02" txq="周日" class="date_ddhui">2</a><a
+					              trq="2018/09/03" txq="周一" class="date_ddhui">3</a><a trq="2018/09/04" txq="周二"
+					              class="date_ddhui">4</a><a trq="2018/09/05" txq="周三" class="date_ddhui">5</a><a trq="2018/09/06"
+					              txq="周四" class="date_ddhui">6</a><a trq="2018/09/07" txq="周五" class="date_ddhui">7</a><a
+					              trq="2018/09/08" txq="周六" class="date_ddhui">8</a><a trq="2018/09/09" txq="周日"
+					              class="date_ddhui">9</a><a trq="2018/09/10" txq="周一" class="date_ddhui">10</a><a
+					              trq="2018/09/11" txq="周二" class="date_ddhui">11</a><a trq="2018/09/12" txq="周三"
+					              class="date_ddhui">12</a><a trq="2018/09/13" txq="周四" class="date_ddhui">13</a><a
+					              trq="2018/09/14" txq="周五" class="date_ddhui">14</a><a trq="2018/09/15" txq="周六"
+					              class="date_ddhui">15</a><a trq="2018/09/16" txq="周日" class="date_ddhui">16</a><a
+					              trq="2018/09/17" txq="周一" class="date_ddhui">17</a><a trq="2018/09/18" txq="周二"
+					              class="date_ddhui">18</a><a trq="2018/09/19" txq="周三" class="date_ddhui">19</a><a
+					              trq="2018/09/20" txq="周四" class="date_ddhui">20</a><a trq="2018/09/21" txq="周五">21</a><a
+					              trq="2018/09/22" txq="周六">22</a><a trq="2018/09/23" txq="周日">23</a><a trq="2018/09/24"
+					              txq="周一">24</a><a trq="2018/09/25" txq="周二">25</a><a trq="2018/09/26" txq="周三">26</a><a
+					              trq="2018/09/27" txq="周四">27</a><a trq="2018/09/28" txq="周五">28</a><a trq="2018/09/29"
+					              txq="周六">29</a><a class="dd_alast" trq="2018/09/30" txq="周日" trql="2018/10/01" txql="周一">30</a>
+					          </dd>
+					        </dl>
+					      </div>
+					      <div class="date_float fl" id="time_second">
+					        <ul class="date_top">
+					          <li class="date_right_j">
+					            <div class="date_jt_icon"><i></i></div>
+					          </li>
+					          <code>2018</code>年
+					          <label>10</label>月
+					          <span class="date_close"></span>
+					        </ul>
+					        <dl class="date_dl">
+					          <dt>
+					            <a>日</a><a>一</a><a>二</a><a>三</a><a>四</a><a>五</a><a>六</a>
+					          </dt>
+					          <dd class="date_dd"><a trq="2018/10/01" txq="周一" style="margin-left: 41px;">1</a><a trq="2018/10/02"
+					              txq="周二">2</a><a trq="2018/10/03" txq="周三">3</a><a trq="2018/10/04" txq="周四">4</a><a
+					              trq="2018/10/05" txq="周五">5</a><a trq="2018/10/06" txq="周六">6</a><a trq="2018/10/07"
+					              txq="周日">7</a><a trq="2018/10/08" txq="周一">8</a><a trq="2018/10/09" txq="周二">9</a><a
+					              trq="2018/10/10" txq="周三">10</a><a trq="2018/10/11" txq="周四">11</a><a trq="2018/10/12"
+					              txq="周五">12</a><a trq="2018/10/13" txq="周六">13</a><a trq="2018/10/14" txq="周日">14</a><a
+					              trq="2018/10/15" txq="周一">15</a><a trq="2018/10/16" txq="周二">16</a><a trq="2018/10/17"
+					              txq="周三">17</a><a trq="2018/10/18" txq="周四">18</a><a trq="2018/10/19" txq="周五">19</a><a
+					              trq="2018/10/20" txq="周六">20</a><a trq="2018/10/21" txq="周日">21</a><a trq="2018/10/22"
+					              txq="周一">22</a><a trq="2018/10/23" txq="周二">23</a><a trq="2018/10/24" txq="周三">24</a><a
+					              trq="2018/10/25" txq="周四">25</a><a trq="2018/10/26" txq="周五">26</a><a trq="2018/10/27"
+					              txq="周六">27</a><a trq="2018/10/28" txq="周日">28</a><a trq="2018/10/29" txq="周一">29</a><a
+					              trq="2018/10/30" txq="周二">30</a><a class="dd_alast" trq="2018/10/31" txq="周三" trql="2018/11/01"
+					              txql="周四">31</a></dd>
+					        </dl>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="ismember">
+					非会员/会员
+					<span class="b"></span>
+				</div>
+				<p class="tel">预订热线：<span>86(755)8622 6299</span></p>
+				<a href="" class="hover btns">立即预订</a>
+			</div>
+			<div class="clear bookt">
+				<div class="l">
+					<h3>深圳尔邸酒店式公寓</h3>
+					<p>中国广东省深圳市南山区侨香路4080号<a href="https://amap.com/search?query=南山区侨香路4080号" target="_blank">立即导航</a>电话：86(755)8622 6299</p>
+				</div>
+				<span class="r">4.9</span>
+				<div class="rs">
+					<p>3160条评论</p>
+					<a href="">查看所有</a>
+				</div>
+			</div>
+			<div class="bookl">
+				<div class="i">
+					<div class="img">
+						<img src="images/bimg_03.jpg" >
+						<span><img src="images/bigicon.png" >2张</span>
+					</div>
+					<div class="c">
+						<h3>尔邸双居</h3>
+						<div class="p">
+							体贴入微的装饰将62平方米的房间，享受舒适，大自然的包围，房间内设有大型淋浴和浴缸，落地窗和特大床。
+						</div>
+						<div class="clear icon">
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon.png" >
+								</div>
+								1.8大床
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon2.png" >
+								</div>
+								客厅
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon3.png" >
+								</div>
+								厨房
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon4.png" >
+								</div>
+								城市景观
+							</div>
+						</div>
+						<div class="ybtn">
+							客房优惠<img src="images/bicon5.png" >
+							<img class="i2" src="images/bicon6.png" >
+						</div>
+					</div>
+					<div class="r">
+						<div class="clear p2">
+							<span class="check"></span>
+							<div class="rr">
+								<span class="ys"><i>￥</i>998</span>
+								<span class="xj">￥<i>988</i>平均/晚</span>
+								<p>含早最优公众价</p>
+							</div>
+						</div>
+						<a href="" class="btn">选择房间预订</a>
+					</div>
+					<div class="b">
+						<ul class="clear">
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="i">
+					<div class="img">
+						<img src="images/bimg_03.jpg" >
+						<span><img src="images/bigicon.png" >2张</span>
+					</div>
+					<div class="c">
+						<h3>尔邸双居</h3>
+						<div class="p">
+							体贴入微的装饰将62平方米的房间，享受舒适，大自然的包围，房间内设有大型淋浴和浴缸，落地窗和特大床。
+						</div>
+						<div class="clear icon">
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon.png" >
+								</div>
+								1.8大床
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon2.png" >
+								</div>
+								客厅
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon3.png" >
+								</div>
+								厨房
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon4.png" >
+								</div>
+								城市景观
+							</div>
+						</div>
+						<div class="ybtn">
+							客房优惠<img src="images/bicon5.png" >
+							<img class="i2" src="images/bicon6.png" >
+						</div>
+					</div>
+					<div class="r">
+						<div class="clear p2">
+							<span class="check"></span>
+							<div class="rr">
+								<span class="ys"><i>￥</i>998</span>
+								<span class="xj">￥<i>988</i>平均/晚</span>
+								<p>含早最优公众价</p>
+							</div>
+						</div>
+						<a href="" class="btn">选择房间预订</a>
+					</div>
+					<div class="b">
+						<ul class="clear">
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="i">
+					<div class="img">
+						<img src="images/bimg_03.jpg" >
+						<span><img src="images/bigicon.png" >2张</span>
+					</div>
+					<div class="c">
+						<h3>尔邸双居</h3>
+						<div class="p">
+							体贴入微的装饰将62平方米的房间，享受舒适，大自然的包围，房间内设有大型淋浴和浴缸，落地窗和特大床。
+						</div>
+						<div class="clear icon">
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon.png" >
+								</div>
+								1.8大床
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon2.png" >
+								</div>
+								客厅
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon3.png" >
+								</div>
+								厨房
+							</div>
+							<div class="s">
+								<div class="ii">
+									<img src="images/bicon4.png" >
+								</div>
+								城市景观
+							</div>
+						</div>
+						<div class="ybtn">
+							客房优惠<img src="images/bicon5.png" >
+							<img class="i2" src="images/bicon6.png" >
+						</div>
+					</div>
+					<div class="r">
+						<div class="clear p2">
+							<span class="check"></span>
+							<div class="rr">
+								<span class="ys"><i>￥</i>998</span>
+								<span class="xj">￥<i>988</i>平均/晚</span>
+								<p>含早最优公众价</p>
+							</div>
+						</div>
+						<a href="" class="btn">选择房间预订</a>
+					</div>
+					<div class="b">
+						<ul class="clear">
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+							<li>
+								<div class="p3">双早推广价(需另加6%增值税)</div>
+								<div class="p4">
+									￥<i>982</i>平均/晚
+								</div>
+								<a href="" class="btn">选择预订</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="dpt">
+				酒店点评
+			</div>
+			<div class="dianping">
+				<div class="clear dianping-t">
+					<div class="l">
+						<div class="p">
+							<i>4.9</i>分
+							<div class="stars">
+								<b class="ac"></b>
+								<b class="ac"></b>
+								<b class="ac"></b>
+								<b class="ac"></b>
+								<b></b>
+							</div>
+							<p>207条评价</p>
+						</div>
+					</div>
+					<ul>
+						<li>
+							设施（4.9）
+							<div class="pro">
+								<b style="width: 80%;"></b>
+							</div>
+						</li>
+						<li>
+							卫生（4.8）
+							<div class="pro">
+								<b style="width: 80%;"></b>
+							</div>
+						</li>
+						<li>
+							服务（4.8）
+							<div class="pro">
+								<b style="width: 80%;"></b>
+							</div>
+						</li>
+						<li>
+							网络（4.9）
+							<div class="pro">
+								<b style="width: 80%;"></b>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<ul class="dianping-l">
+					<li>
+						<img src="images/buser.png" >
+						<div class="l">
+							<b>4.9 / 5</b>
+							<p>张**</p>
+						</div>
+						<div class="p">
+							来看演唱会，房间很满意，装修设施都很完善，唯独就是当时停车费点劲意外其他没什么不好的，服务也很到位，提前给发短信和打电话确认，很好的一次出行。
+						</div>
+						<div class="p2">
+							2019-12-18  18:26:30
+						</div>
+					</li>
+					<li>
+						<img src="images/buser.png" >
+						<div class="l">
+							<b>4.9 / 5</b>
+							<p>张**</p>
+						</div>
+						<div class="p">
+							来看演唱会，房间很满意，装修设施都很完善，唯独就是当时停车费点劲意外其他没什么不好的，服务也很到位，提前给发短信和打电话确认，很好的一次出行。
+						</div>
+						<div class="p2">
+							2019-12-18  18:26:30
+						</div>
+					</li>
+					<li>
+						<img src="images/buser.png" >
+						<div class="l">
+							<b>4.9 / 5</b>
+							<p>张**</p>
+						</div>
+						<div class="p">
+							来看演唱会，房间很满意，装修设施都很完善，唯独就是当时停车费点劲意外其他没什么不好的，服务也很到位，提前给发短信和打电话确认，很好的一次出行。
+						</div>
+						<div class="p2">
+							2019-12-18  18:26:30
+						</div>
+					</li>
+					<li>
+						<img src="images/buser.png" >
+						<div class="l">
+							<b>4.9 / 5</b>
+							<p>张**</p>
+						</div>
+						<div class="p">
+							来看演唱会，房间很满意，装修设施都很完善，唯独就是当时停车费点劲意外其他没什么不好的，服务也很到位，提前给发短信和打电话确认，很好的一次出行。
+						</div>
+						<div class="p2">
+							2019-12-18  18:26:30
+						</div>
+					</li>
+				</ul>
+				<ul class="page">
+					<li class="li1"></li>
+					<li class="ac">1</li>
+					<li>2</li>
+					<li class="li2"></li>
+					<li class="li3">GO</li>
+					<li class="li3"><input type="" name="" id="" value="2" /></li>
+					<span>共有10条信息，2 页</span>
+				</ul>
+			</div>
+		</div>
+		<div class="footer footers">
+			<div class="innern">
+				<p class="p1"><a href="#room">尔邸</a><i>▪</i><a href="#about">憩</a><i>▪</i><a href="#sheshi">聚</a><i>▪</i><a href="#contact">优惠</a><i>▪</i><a href="#contact">物语</a><i>▪</i><a href="#contact">联系</a></p>
+				<div class="hover wechat">
+					微信关注
+					<div class="wechati">
+						官方微信
+						<img src="images/wechati.png" >
+					</div>
+				</div>
+				<a href="mailto:artisseplace@artisseplace.com" class="wechat wechats">邮件订阅</a>
+				<p class="p2">© 深圳尔邸酒店式公寓, 2020. All rights reserved.<a href="http://beian.miit.gov.cn" target="_blank">粤ICP备20061955号-1</a><a href="http://www.net-tactic.com/" target="_blank">网策制作</a></p>			</div>
+		</div>
+		<div class="kefangpc">
+			<h3>豪华天际套房</h3>
+			<div class="clear c">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="images/b2img_03.jpg" >
+						</div>
+						<div class="swiper-slide">
+							<img src="images/b2img_03.jpg" >
+						</div>
+						<div class="swiper-slide">
+							<img src="images/b2img_03.jpg" >
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+				<div class="r">
+					<div class="p">
+						40平方米现代风格的宽敞标准客房，通过落地窗将酒店空中花园，无边际泳池与城市美景尽收眼底。独立分开的淋浴间，专属订制的美国知名品牌舒达床垫为您添加舒适感受。
+					</div>
+					<h4>客房设施</h4>
+					<ul>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+						<li><i></i>红外线夜灯感应功能</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/date.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('.bookl .ybtn').click(function(){
+			$(this).toggleClass('ac');
+			$(this).parent().siblings('.b').toggle();
+		})
+		
+		$('.bookl .img span').click(function(){
+			layer.open({
+				area:['1200px','654px'],
+				skin:'kefangp',
+				btn:[],
+				content:$('.kefangpc').html(),
+				success:function(){
+					var swiper = new Swiper('.kefangp .swiper-container', {
+						nextButton: '.kefangp .swiper-button-next',
+						prevButton: '.kefangp .swiper-button-prev',
+					});
+				}
+			})
+		})
+	</script>
+</html>

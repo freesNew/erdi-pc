@@ -1,0 +1,275 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Noto Sans SC', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,i {
+	font-weight: normal;
+	font-style: inherit;
+}
+
+input {
+	outline: none;
+	font-size: 14px;
+}
+
+ul,
+ol,
+dl {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+	border: 0;
+	vertical-align: middle;
+}
+.inner,.inners,.innern{
+	width: 	1340px;
+	margin: 0 auto;
+	position: relative;
+}
+.inners{
+	width: 1064px;
+}
+.innern{
+	width: 1200px;
+}
+body,
+html {
+	color: #333;
+	font-size: 14px;
+	overflow-x: hidden;
+}
+a:hover {
+	text-decoration: underline;
+}
+.hover:hover{
+	opacity: .8;
+}
+.clear{
+	overflow: hidden;
+}
+.header{
+				height: 120px;
+				line-height: 120px;
+				position: fixed;
+				width: 100%	;
+				z-index: 999;
+				transition: all .5s;
+			}
+			.header .logo{
+				float: left;
+			}
+			.header .logo .i2,.header.ac .logo img{
+				display: none;
+			}
+			.header.ac .logo .i2{
+				display: inline;
+			}
+			.header .nav{
+				float: left;
+				padding-left: 382px;
+			}
+			.header .lang{
+				float: right;
+				height: 37px;
+				line-height: 37px;
+				text-align: center;
+				border: 1px solid #fff;
+				border-color: rgba(255,255,255,.54);
+				color: #fff;
+				margin: 40px 0 0;
+				padding: 0 15px;
+			}
+			.header .imember{
+				padding: 0;
+				border-right: none;
+				width: 36px;
+				background: url(../images/user.png) no-repeat center;
+			}
+			.header.ac .lang{
+				border-color: #ddd;
+				color: #fff;
+				background-color: #736c68;
+				border-color: #736c68;
+			}
+			.header.ac .langN{
+				color: #5c5957;
+			}
+			.header.ac .imember{
+				background-color: #827b76;
+				border-color: #827b76;
+			}
+			.header.ac{
+				background: #fff;
+				box-shadow: 0 0 5px #ddd;
+				transition: all .5s;
+			}
+			.header .nav li{
+				float: left;
+				padding: 0 25px;
+				font-size: 16px;
+			}
+			.header .nav a{
+				color: #fff;
+			}
+			.header.ac .nav a{
+				color: #333;
+			}
+			.banner{
+				/* height: 100vh; */
+				position: relative;	
+			}
+			.banner .img img,.banner .img video{
+				width: 100%;
+				height: 100%;
+				max-width: inherit;
+				object-fit: cover;
+				display: block;
+			}
+			.banner .img{
+				position: relative;
+				height: 100%;
+			}
+			.banner .swiper-pagination-bullet{
+				background: #fff;
+				border-radius: 0;
+				opacity: 1;
+				margin: 0 18px !important;
+				position: relative;
+			}
+			.banner .swiper-pagination{
+				bottom: 165px;
+			}
+			.banner .swiper-pagination-bullet-active:before{
+				content: '';
+				width: 36px;
+				height: 36px;
+				border: 1px solid #fff;
+				position: absolute;
+				left: -15px;
+				top: -15px;
+			}
+			.banner b{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background: #000;
+				opacity: .21;
+				filter: alpha(opacity=21);
+				left: 0;
+				top: 0;
+			}
+			.banner .cont{
+				width: 406px;
+				left: 50%;
+				top: 30%;
+				color: #fff;
+				position: absolute;
+				z-index: 9;
+				text-align: center;
+				line-height: 104px;
+				margin-left: -203px;
+			}
+			.banner h3{
+				font-size: 36px;
+				border-bottom: 1px solid #fff;
+			}
+			.banner p{
+				font-size: 26px;
+			}
+			.iyouhui .swiper-button-next,.iyouhui .swiper-button-prev,.ipinpai .swiper-button-next,.ipinpai .swiper-button-prev{
+				width: 60px;
+				height: 60px;
+				border: 1px solid #969291;
+				background: url(../images/arrowl.png) no-repeat center;
+				transition: all .3s;
+				left: 0;
+				top: 285px;
+				margin: 0;
+			}
+			.ipinpai .swiper-button-next,.ipinpai .swiper-button-prev{
+				top: 445px;
+				left: -62px;
+			}
+			.iyouhui .swiper-button-next,.ipinpai .swiper-button-next{
+				background-image: url(../images/arrowr.png);
+				left: auto;
+				right: 0;
+			}
+			.ipinpai .swiper-button-next{
+				right: -62px;
+			}
+			.iyouhui .swiper-button-prev:hover,.ipinpai .swiper-button-prev:hover{
+				background: #776861 url(../images/arrowlac.png) no-repeat center;
+				transition: all .3s;
+			}
+			.iyouhui .swiper-button-next:hover,.ipinpai .swiper-button-next:hover{
+				background: #776861 url(../images/arrowrac.png) no-repeat center;
+				transition: all .3s;
+			}
+			.hovers:hover{
+				background-color: #776861 !important;
+				color: #fff !important;
+				transition: all .3s;
+				border-color: #776861;
+			}
+			.footer{
+				text-align: center;
+				padding: 80px 0 90px;
+			}
+			.footer .p1 i{
+				color: #b6b3b1;
+				padding: 0 15px;
+			}
+			.footer .p2{
+				color: #9f9e9e;
+			}
+			.footer .p2 a{
+				color: #9f9e9e;
+				margin-left: 20px;
+			}
+			.footer .p1{
+				padding: 0 0 17px;
+			}
+			.footer .wechat{
+				height: 44px;
+				width: 44px;
+				line-height: 44px;
+				margin: 25px auto 0;
+				background: url(../images/wechat.png) no-repeat center;
+				position: relative;
+			}
+			.tag{
+				position: relative;
+				top: -120px;
+			}
+			.wechati{
+				padding: 10px 15px 15px;
+				box-shadow: 0 0 8px #ccc;
+				font-size: 16px;
+				text-align: center;
+				line-height: 36px;
+				background: #fff;
+				width: 140px;
+				position: absolute;
+				bottom: 50px;
+				left: -63px;
+				display: none;
+			}
+			.wechat:hover .wechati{
+				display: block;
+				color: #333;
+			}
