@@ -131,6 +131,7 @@ a:hover {
 			.banner{
 				/* height: 100vh; */
 				position: relative;	
+				background: #ccc;
 			}
 			.banner .img img,.banner .img video{
 				width: 100%;

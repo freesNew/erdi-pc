@@ -60,6 +60,15 @@
 			}
 			.about .l{
 				float: left;
+				width: 530px;
+				overflow: hidden;
+			}
+			.about .l img{
+				transition: all 1s;
+			}
+			.about .l:hover img{
+				transform: scale(1.05);
+				transition: all 1s;
 			}
 			.about .r{
 				float: right;
@@ -130,7 +139,23 @@
 				padding: 45px 0 30px;
 			}
 			.iyouhui .c a{
-				text-decoration: underline;
+				position: relative;
+			}
+			.iyouhui .c a:hover{
+				text-decoration: none;
+			}
+			.iyouhui .c a b{
+				position: absolute;
+				height: 1px;
+				width: 0;
+				bottom: 0;
+				background: #333;
+				left: 0;
+				transition: all .3s;
+			}
+			.iyouhui .c a:hover b{
+				width: 100%;
+				transition: all .3s;
 			}
 			.swiper-button-next:after,.swiper-button-prev:after{
 				display: none;
@@ -251,6 +276,7 @@
 				left: 277px;
 				width: 700px;
 				padding-left: 45px;
+				border-radius: 0;
 			}
 			.header.headers{
 				position: static;
@@ -893,4 +919,24 @@
 			}
 			.orderl{
 				padding: 0 0 70px;
+			}
+			.bookl .btn:hover{
+				background: #f2f0e9;
+			}
+			.about .r .as:hover{
+				text-decoration: none;
+			}
+			.ipinpai .img{
+				height: 307px;
+				overflow: hidden;
+			}
+			.ipinpai .img img:hover{
+				transform: scale(1.1);
+				transition: all 1s;
+			}
+			.ipinpai .img img{
+				transition: all 1s;
+			}
+			.ipinpai .swiper-slide a:hover{
+				text-decoration: none;
 			}
