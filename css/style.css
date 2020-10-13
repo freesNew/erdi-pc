@@ -46,6 +46,9 @@ img{
 .innern{
 	width: 1200px;
 }
+.innerns{
+	padding: 120px 0 0;
+}
 body,
 html {
 	color: #333;
@@ -129,13 +132,13 @@ a:hover {
 				color: #333;
 			}
 			.banner{
-				/* height: 100vh; */
+				height: 100vh;
 				position: relative;	
 				background: #ccc;
 			}
 			.banner .img img,.banner .img video{
 				width: 100%;
-				height: 100%;
+				height: 100vh;
 				max-width: inherit;
 				object-fit: cover;
 				display: block;
